@@ -89,7 +89,7 @@
 \makecvfooter
   {\today}
   {V. Kurrshanth~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {\thepage/\pageref{LastPage}}
 
 
 %-------------------------------------------------------------------------------
@@ -97,10 +97,11 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 
-\input{cv/experience.tex}
 \input{cv/objective.tex}
 \input{cv/education.tex}
 \input{cv/skills.tex}
+\input{cv/experience.tex}
+\newpage
 \input{cv/projects.tex}
 % \input{cv/extracurricular.tex}
 % \input{cv/honors.tex}

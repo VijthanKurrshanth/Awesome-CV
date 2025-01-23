@@ -92,6 +92,8 @@
 }
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
+% Needed to manage the footer
+\RequirePackage{lastpage}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
